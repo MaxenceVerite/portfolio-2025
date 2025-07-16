@@ -79,7 +79,7 @@ const TerminalPage = () => {
             <span className="text-gray-400">:</span>
             <span className="text-blue-400">~</span>
             <span className="text-gray-400">$ </span>
-            <span>Type 'help' to see available commands.</span>
+            <span>Type &apos;help&apos; to see available commands.</span>
           </div>
           {output.map((line, index) => (
             <div key={index}>{line}</div>
